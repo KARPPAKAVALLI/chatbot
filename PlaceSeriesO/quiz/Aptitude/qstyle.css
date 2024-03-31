@@ -1,0 +1,107 @@
+body,
+html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.header {
+  min-height: 75%;
+  /*background: url("https://media.istockphoto.com/id/1318101781/photo/stone-black-texture-background-dark-cement-wall.jpg?b=1&s=170667a&w=0&k=20&c=KZzF_N_cRN5OXL873BJWfKfsBY0qN6cpxXEb_RUpNNs=") no-repeat center center fixed;*/
+  background-color: rgba(0, 0, 0, 0.85);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background: url("https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_960_720.jpg");
+}
+.w3-top{
+  float: right;
+}
+.w3-top,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+.w3-col{
+  float: right;
+}
+/* Shop Information section */
+.section-break {
+  min-height: 100%;
+  background: url("https://media.istockphoto.com/id/1318101781/photo/stone-black-texture-background-dark-cement-wall.jpg?b=1&s=170667a&w=0&k=20&c=KZzF_N_cRN5OXL873BJWfKfsBY0qN6cpxXEb_RUpNNs=") no-repeat center center fixed;
+  filter: grayscale(50%);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+#qlink{
+  /*background: url("https://media.istockphoto.com/id/1318101781/photo/stone-black-texture-background-dark-cement-wall.jpg?b=1&s=170667a&w=0&k=20&c=KZzF_N_cRN5OXL873BJWfKfsBY0qN6cpxXEb_RUpNNs=") no-repeat center center fixed;
+  filter: grayscale(50%);
+  background-blend-mode: multiply;
+  background-size: cover;*/
+  background-color: black;
+  height: 600px;
+}
+.contain{
+  padding-top: 5%;
+}
+.contain:after {
+  /*content: "";*/
+  display: table;
+  clear: both;
+  height: 600px;
+}
+.cp{
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  width: 30%;
+  height: 450px;
+  float: left;
+  color: white;
+  position: relative;
+  text-align:center;
+}
+.apti{
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  height: 450px;
+  float: left;
+  width: 30%;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+    position: relative;
+}
+.hr{
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  width: 30%;
+  height: 450px;
+  float: left;
+  color: white;
+    position: relative;
+}
+.clickable {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 1;
+  margin: 1%;
+  text-align:center;
+}
+/*.clickable span {
+	margin: 1%;
+	background: #fff;
+	box-shadow: inset 0px 0px 25px rgba(0,0,0,0.2),
+						0 0 40px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	padding: 30px 50px;
+	cursor: pointer;
+}
+.smbox span:hover {
+	transform: scale(1.3);
+	transition: .5s ease;
+}*/
